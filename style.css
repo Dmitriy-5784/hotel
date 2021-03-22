@@ -1,0 +1,50 @@
+header {
+    padding: 1em;
+    color: white;
+    background-color: rgba(23, 219, 253, 0.911);
+    /* clear: left; */
+    text-align: justify;
+    margin: -8px -8px;
+    width: 100%;
+    }
+    
+    nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    nav ul a {
+    text-decoration: none;
+    }
+    
+    article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    }
+    footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    }
+    button {
+    background-color: rgba(80, 31, 158, 0.63);
+    color: white;
+    margin: auto;
+    width: auto;
+    padding: 12px;
+    border: 1px solid white;
+    }
+    div {
+    width: 100%;
+    }
