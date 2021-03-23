@@ -1,18 +1,26 @@
-header {
-    padding: 1em;
+body {
+    /*background-color: rgb(62, 34, 185);*/
+    }
+    
+    header {
+    padding: 30px;
     color: white;
-    background-color: rgba(23, 219, 253, 0.911);
-    /* clear: left; */
-    text-align: justify;
+    background-color: rgba(74, 76, 219, 0.685);
+    clear: left;
+    text-align: center;
     margin: -8px -8px;
-    width: 100%;
+    overflow: auto;
     }
     
     nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
+    padding: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 16, 124);
+    clear: left;
+    text-align: left;
+    margin: 8px -8px;
+    overflow: auto;
+    font-size:39px;
     }
     
     nav ul {
@@ -20,30 +28,42 @@ header {
     padding: 0;
     }
     
-    nav ul a {
+    /*nav ul a {
     text-decoration: none;
-    }
+    }*/
     
     article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
+    float: left;
+    max-width: 160px;
+    margin: 0;
     padding: 1em;
-    overflow: hidden;
+    background-color: rgba(74, 76, 219, 0.685);
+    font-size:12px;
+    width: 30%;
     }
     footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 16, 124);
     clear: left;
     text-align: center;
+    margin: 8px -8px;
+    overflow: auto;
     }
     button {
-    background-color: rgba(80, 31, 158, 0.63);
+    background-color: rgb(8, 16, 124);
     color: white;
     margin: auto;
     width: auto;
     padding: 12px;
     border: 1px solid white;
+    overflow: auto;
+    margin-left: auto;
+    }
+    #otelj {
+    float: right;
+    margin: -145px 20px;
+    padding: -50px;
     }
     div {
     width: 100%;
